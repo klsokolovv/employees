@@ -35,21 +35,21 @@ class EmployeesAddForm extends Component {
                 <form
                     className="add-form d-flex"
                     onSubmit = {this.onSubmit}>
-                    <input type="text"
-                        className="form-control new-post-label"
-                        placeholder="Как его зовут?"
-                        name="name"
-                        value={name} 
+                    <input type = "text"
+                        className ="form-control new-post-label"
+                        placeholder ="Как его зовут?"
+                        name = "name"
+                        value = {name} 
                         onChange={this.onValueChange}/>
-                    <input type="number"
-                        className="form-control new-post-label"
+                    <input type = "number"
+                        className = "form-control new-post-label"
                         placeholder="З/П в $?"
-                        name="salary"
-                        value={salary} 
-                        onChange={this.onValueChange}/>
+                        name = "salary"
+                        value = {salary} 
+                        onChange = {this.onValueChange}/>
     
-                    <button type="submit"
-                            className="btn btn-outline-light">Добавить</button>
+                    <button type = "submit"
+                            className = "btn btn-outline-light">Добавить</button>
                 </form>
             </div>
         )
